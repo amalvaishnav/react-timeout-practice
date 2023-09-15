@@ -31,9 +31,9 @@ const App = () => {
 
   useEffect(() => {
     setTimeRecord(timeRecordArray);
-    console.log(timeRecordArray.length);
   }, [status]);
 
+  console.log("rendered");
   var currentH = time.h,
     currentM = time.m,
     currentS = time.s,
